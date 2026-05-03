@@ -1,6 +1,48 @@
 # 🚀 Vera: The World's First Autonomous Growth Agent for Magicpin
 
+![Vera Architecture](assets/architecture.png)
+
 **Vera** is not just a chatbot. She is a **Strategic Business Partner** that autonomously manages marketing, predicts market trends, and designs professional campaigns for Magicpin merchants.
+
+---
+
+## 📊 Core Architecture & Logic
+
+### 1. The Decision Pipeline
+```mermaid
+graph TD
+    A[Market Signals] -->|Search Spikes| B(Vera Autonomous Brain)
+    C[Merchant Data] -->|Performance Dips| B
+    D[External Trends] -->|Festivals/IPL| B
+    B --> E{Strategy Matrix}
+    E -->|Outreach| F[Hinglish LLM Composer]
+    E -->|Design| G[Creative Studio]
+    F --> H[Merchant Action]
+    G --> H
+```
+
+### 2. The Self-Learning Feedback Loop
+```mermaid
+sequenceDiagram
+    participant M as Merchant
+    participant V as Vera Brain
+    participant D as DB (Analytics)
+    
+    V->>M: Send Targeted Outreach
+    M->>V: Reply "YES / NO"
+    V->>D: Record Intent & Strategy Success
+    D-->>V: Update Strategy Win-Rate
+    Note right of V: Bot gets smarter<br/>with every chat!
+```
+
+### 3. Strategy Optimization
+```mermaid
+pie title Autonomous Strategy Distribution
+    "Awareness Push" : 45
+    "Discount Campaigns" : 25
+    "Combo Promotions" : 20
+    "Festival Specials" : 10
+```
 
 ---
 
