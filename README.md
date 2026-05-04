@@ -3,7 +3,7 @@
 ![Vera Architecture](assets/architecture.png)
 
 **Vera** is not just a chatbot. She is a **Strategic Business Partner** that autonomously manages marketing, predicts market trends, and designs professional campaigns for Magicpin merchants.
-
+ 
 ---
 
 ## 📊 Core Architecture & Logic
