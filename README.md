@@ -6,7 +6,7 @@
  
 ---
 
-## 📊 Core Architecture & Logic
+## 📊 Core Architecture & Logic 
 
 ### 1. The Decision Pipeline
 ```mermaid
